@@ -1,0 +1,35 @@
+.login-item{
+    display: flex;
+    justify-content: center;
+}
+ 
+
+.loging-forem{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+.loging-forem input{
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 10px 20px;
+}
+.loging-forem input[type="submit"]
+{
+    background-color: rgb(0, 102, 255);
+    border: 0;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}

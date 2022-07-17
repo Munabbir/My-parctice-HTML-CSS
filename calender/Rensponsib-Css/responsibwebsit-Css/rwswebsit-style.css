@@ -1,0 +1,58 @@
+body{
+    border: 2px solid black;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 5vw;
+}
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 2vw;
+}
+.taigar img{
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.food{
+    border: 2px solid indianred;
+    padding: 10px;
+    border-radius: 5px;
+}
+.food img{
+    width: 100%;
+}
+.food h1 h3{
+    font-size: 2vw;
+}
+.continer-tow{
+    display: flex;
+}
+.continer-tow .split{
+    width: 50%;
+}
+.split img{
+    width: 100%;
+}
+@media screen and (max-width: 576px) {
+    .continer-tow{
+        flex-direction: column-reverse;
+    }
+    .continer-tow .split{
+        width: 100%;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 700px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
